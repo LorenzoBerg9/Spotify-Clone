@@ -51,3 +51,92 @@ ul li a {
 ul li a:hover {
     color: chartreuse;
 }
+
+/*section*/
+section {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+    background-color: var(--bg-color);
+}
+
+.title-content {
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.title-content h1 {
+    font-size: 35px;
+    color: var(--txt-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.sub-titulo-content {
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 20px;
+    color: var(--txt-color);
+    letter-spacing: 1px;
+    text-align: initial;
+}
+
+.btn-content {
+    margin-left: 15%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.btn-content .btn1 {
+    padding: 15px;
+    font-size: 15px;
+    width: 250px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    background-color: var(--bg-header);
+    color: var(--txt-color);
+}
+
+.btn-content .btn2 {
+    padding: 14px;
+    font-size: 15px;
+    color: var(--txt-color);
+    margin-left: 12px;
+    text-transform: uppercase;
+    border: 2px solid var(--txt-color);
+    width: 160px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.btn-content .btn1:hover { /*faz o botao crescer quando coloca o mouse por cima*/
+    transform: scale(1.1);
+}
+
+.btn-content .btn2:hover { /*faz o botao crescer quando coloca o mouse por cima*/
+    transform: scale(1.1);
+    background-color: #833d83;
+}
+
+.small-content{
+    margin-left: 15%;
+    margin-top: 40px;   
+}
+
+.small-content p{
+    font-size: 12px;
+    font-family: 'Lato' sans-serif;
+    color: var(--txt-color);
+    text-align: initial;
+}
+
